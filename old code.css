@@ -1,0 +1,27 @@
+/*Heading with Navbar*/
+
+.name {
+  float: left;
+  text-align: left;
+  width: 960px; 
+}
+
+ul {
+  float: right;
+}
+
+li {
+  display: inline;
+}
+
+.link {
+  padding: 5px;
+}
+
+.header {
+  background-color: white;
+  margin: 0 auto;
+  padding: 50px;
+  position: relative;
+  width: 960px;
+}

@@ -13,24 +13,39 @@ body {
 
 /*Heading with Navbar*/
 
-h1 {
-  float: left;
-  text-align: center;
+.heading-nav {
+  border-bottom: 0.2em solid #cccccc;
 }
 
-ul {
-  float: right
+h1 {
+  background-color: #4aaaa5;
+  display: inline;
+  position: absolute;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 
+
+}
+header {
+  background-color: white;
+  margin: 0 auto;
+}
+
+.name {
+  margin: 0 auto;
+  padding: 25px;
+  position: relative;
+  width: 960px;
 }
 
 li {
   display: inline;
+  padding: 18px;
 }
 
-div {
-  background-color: white;
-  width: 960px;
-  margin: 0 auto;
-  padding: 50px;
+.nav-links {
+  float: right;
+  margin-right: 25px;
 }
 
 /*About Me Box*/
@@ -39,12 +54,16 @@ div {
   background-color: white;
   width: 960px;
   margin: 25px auto;
-
 }
 
 h2 {
   text-align: left;
+  padding-top: 25px;
+  padding-left: 25px;
+
 }
+
+
 hr { 
   display: block;
   margin-top: 0.5em;
@@ -58,11 +77,14 @@ hr {
 p {
   text-align: justify;
   text-indent: 25px;
+  padding: 25px;
 }
 #abt-image {
   float: left;
   height: 200px;
   width: 200px;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 /*Contact.HTML Page*/
@@ -79,4 +101,10 @@ p {
   background-color: white;
   width: 960px;
   margin: 25px auto;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
 }
