@@ -20,22 +20,28 @@ body {
 h1 {
   background-color: #4aaaa5;
   display: inline;
-  position: absolute;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 
-
+  width: 960px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 13px;
+  padding-top: 15px;
+  line-height: 2;
+  margin: auto;
 }
+
 header {
   background-color: white;
   margin: 0 auto;
 }
 
 .name {
-  margin: 0 auto;
-  padding: 25px;
-  position: relative;
-  width: 960px;
+  margin: auto;
+  display: inline;
+  margin-left: 276px;
+}
+
+nav {
+  display: inline;
 }
 
 li {
@@ -45,7 +51,7 @@ li {
 
 .nav-links {
   float: right;
-  margin-right: 25px;
+  margin-right: 260px;
 }
 
 /*About Me Box*/
@@ -53,31 +59,33 @@ li {
 .about-me {
   background-color: white;
   width: 960px;
-  margin: 25px auto;
+  margin: auto;
+  padding-bottom: 100px;
 }
 
 h2 {
   text-align: left;
   padding-top: 25px;
   padding-left: 25px;
-
+  border-bottom: 2px;
 }
-
 
 hr { 
   display: block;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 25px;
+  margin-right: 25px;
   border-style: inset;
   border-width: 1px;
   color: darkgrey;
 }
+
 p {
   text-align: justify;
   text-indent: 25px;
-  padding: 25px;
+  padding-right: 25px;
+
 }
 #abt-image {
   float: left;
