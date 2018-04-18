@@ -1,0 +1,82 @@
+/*Body*/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  line-height: 150%;
+  color: #333;
+  background-image: url("../images/xv.png");
+  background-repeat: repeat;
+}
+
+/*Heading with Navbar*/
+
+h1 {
+  float: left;
+  text-align: center;
+}
+
+ul {
+  float: right
+}
+
+li {
+  display: inline;
+}
+
+div {
+  background-color: white;
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+/*About Me Box*/
+
+.about-me {
+  background-color: white;
+  width: 960px;
+  margin: 25px auto;
+
+}
+
+h2 {
+  text-align: left;
+}
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  color: darkgrey;
+}
+p {
+  text-align: justify;
+  text-indent: 25px;
+}
+#abt-image {
+  float: left;
+  height: 200px;
+  width: 200px;
+}
+
+/*Contact.HTML Page*/
+
+.contact {
+  background-color: white;
+  width: 960px;
+  margin: 25px auto;
+}
+
+/*Portfolio.HTML Page*/
+
+.portfolio {
+  background-color: white;
+  width: 960px;
+  margin: 25px auto;
+}
