@@ -118,6 +118,19 @@ p {
   margin: 25px auto;
 }
 
+.contact-container {
+  position: relative;
+  padding: 25px;
+}
+
+input {
+  position: relative;
+}
+
+textarea {
+  position: relative;
+}
+
 /*Portfolio.HTML Page*/
 
 .container {
@@ -203,6 +216,16 @@ p {
   padding-top: 15px;
   margin: auto 15px;
 }
+
+/*Coming Soon Page*/
+
+.gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 25px;
+}
 /*Footer*/
 
 .footer {
@@ -222,6 +245,8 @@ h5 {
   padding-bottom: 13px;
   padding-top: 15px;
 }
+
+/*CLEARFIX*/
 
 .clearfix::after {
 	content: "";
