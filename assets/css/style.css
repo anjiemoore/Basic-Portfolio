@@ -120,12 +120,47 @@ p {
 
 /*Portfolio.HTML Page*/
 
-.portfolio {
-  background-color: white;
-  width: 960px;
-  margin: 25px auto;
+.container {
+  position: relative;
+}
+.port {
+  position: relative;
+  top: 0;
+  padding: 15px;
+}
+.port1 {
+  position: relative;
+  top: 0;
+  left: 70px;
+  padding: 15px;
 }
 
+.port2{
+  position: relative;
+  top: 250px;
+  right: 469px;
+  padding: 15px;
+}
+
+.port3 {
+  position: relative;
+  top: 14px;
+  left: 304px;
+  padding: 15px;
+}
+
+.one {
+  position: absolute;
+  top: 76px;
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  padding-left: 52px;
+  padding-right: 46px;
+  padding-bottom: 13px;
+  padding-top: 15px;
+  margin: auto 15px;
+}
 /*Footer*/
 
 .footer {
