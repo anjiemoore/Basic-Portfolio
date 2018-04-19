@@ -149,9 +149,51 @@ p {
   padding: 15px;
 }
 
+/*Pictures*/
+
 .one {
   position: absolute;
-  top: 76px;
+  top: 78px;
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  padding-left: 52px;
+  padding-right: 46px;
+  padding-bottom: 13px;
+  padding-top: 15px;
+  margin: auto 15px;
+}
+
+.two {
+  position: absolute;
+  top: 78px;
+  right: 298px;
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  padding-left: 52px;
+  padding-right: 46px;
+  padding-bottom: 13px;
+  padding-top: 15px;
+  margin: auto 15px;
+}
+.three {
+  position: absolute;
+  top: 328px;
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  padding-left: 52px;
+  padding-right: 46px;
+  padding-bottom: 13px;
+  padding-top: 15px;
+  margin: auto 15px;
+}
+
+.four {
+  position: absolute;
+  top: 328px;
+  right: 298px;
   background-color: #4aaaa5;
   color: white;
   text-align: center;
@@ -164,7 +206,7 @@ p {
 /*Footer*/
 
 .footer {
-  border-top: 0.2em solid #cccccc;
+  border-top: 0.4em solid #4aaaa5;
   left: 0;
   bottom: 0;
   width: 100%;
